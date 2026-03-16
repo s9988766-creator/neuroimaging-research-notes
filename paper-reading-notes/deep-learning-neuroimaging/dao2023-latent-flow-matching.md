@@ -140,7 +140,7 @@ VinAIResearch/LFM/
 
 ## 筆記
 
-- 這篇基本上就是把 Stable Diffusion 的 "latent space" 概念搬到 flow matching，idea 很 clean
+- 就是把 Stable Diffusion 的 "latent space" 概念搬到 flow matching
 - W₂ bound 那段數學我還沒完全看懂，有空要再推一次... 主要是 Theorem 1 的證明
 - 想試試看拿 VinAI 的 code 改成 3D 版本，用 brain MRI 做 unconditional generation
 - 跟 Lipman et al. (2023) 的原版 flow matching 比起來，latent space 的優勢在高解析度很明顯
