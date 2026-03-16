@@ -2,6 +2,8 @@
 
 ## Overview
 
+![Supervised vs Unsupervised Learning](images/supervised-vs-unsupervised.png)
+
 機器學習的三大監管方式，差異在於 training data 有沒有 label (ground truth y)。
 
 | 監管方式 | 訓練資料 | 典型問題 |
@@ -18,6 +20,8 @@ Training sample = feature vector (x) + ground-truth label (y)
 
 根據 y 的類型分成兩種問題：
 
+![Classification, Regression, Clustering 西瓜例子](images/watermelon-examples.png)
+
 **Classification（分類）**：y 是離散的類別標籤
 - 例：給一顆西瓜的特徵 → 判斷 Good or Bad
 - 常用演算法：Decision Tree, Naive Bayes, Logistic Regression, Random Forest, SVM, Neural Network, Gradient Boosting Tree
@@ -33,6 +37,8 @@ Training sample = feature vector (x) + ground-truth label (y)
 Training sample = 只有 feature vector (x)，完全沒有 label y
 
 模型自己從資料中找出結構和 pattern。
+
+![演算法分類表](images/algorithm-table.png)
 
 **Clustering（分群）**：把相似的資料分在一起
 - 例：一堆西瓜，不知道好壞，讓模型自己分群
@@ -53,6 +59,8 @@ Training sample = 只有 feature vector (x)，完全沒有 label y
 > 參考：[浅谈弱监督学习 - 知乎](https://zhuanlan.zhihu.com/p/81404885)
 
 ### 三種類型
+
+![Weak supervision 三種類型](images/weak-supervision-types.png)
 
 **1. Incomplete Supervision（不完全監督）**
 
