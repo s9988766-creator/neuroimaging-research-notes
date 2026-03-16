@@ -138,7 +138,7 @@ VinAIResearch/LFM/
 3. The theoretical bound connecting latent FM loss to data distribution quality provides a principled foundation.
 4. This approach makes flow matching practical for high-resolution and potentially 3D medical image generation.
 
-## 我的想法
+## 筆記
 
 - 這篇基本上就是把 Stable Diffusion 的 "latent space" 概念搬到 flow matching，idea 很 clean
 - W₂ bound 那段數學我還沒完全看懂，有空要再推一次... 主要是 Theorem 1 的證明
