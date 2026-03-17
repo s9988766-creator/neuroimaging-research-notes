@@ -123,9 +123,9 @@ Training sample = 只有 feature vector (x)，完全沒有 label y
 - 不同標註者之間的 inter-rater variability 造成 label noise → inaccurate supervision
 - Active learning 可以用來優化標註流程，讓醫師只標最有價值的 case
 
-## 我的筆記
+## 
 
-- 之前一直搞混 semi-supervised 跟 weak supervised 的差別，現在比較清楚了：semi-supervised 是 weak supervised 底下 incomplete supervision 的一種解法
-- Multi-instance learning 的概念蠻有趣的，在 pathology (病理學) 的 whole slide image 分析裡面很常用
+- semi-supervised 是 weak supervised 底下 incomplete supervision 的一種解法
+- Multi-instance learning 的概念在 pathology (病理學) 的 whole slide image 分析裡面很常用
 - TODO: 看看 neuroimaging 領域有沒有用 active learning 來減少標註成本的 paper
 - TODO: 了解 cleanlab 這個工具，看能不能用在腦影像的 noisy label 問題上
